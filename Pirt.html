@@ -1,0 +1,92 @@
+<html>
+<head>
+<style>
+/* Global styles for the body and main container */
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.browser-container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Style for the search bar section */
+.search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+/* Styles for the DuckDuckGo search form */
+.search-form {
+    display: flex;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.search-form:hover,
+.search-form:focus-within {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.search-input {
+    flex-grow: 1;
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #f7f7f7;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    border-left: 1px solid #ccc;
+    transition: background-color 0.2s ease;
+}
+
+.search-button:hover {
+    background-color: #e6e6e6;
+}
+
+/* Style for the logo (if you have one) */
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Other content styling */
+.content {
+    margin-top: 20px;
+    text-align: center;
+    color: #555;
+}
+</style>
+</head>
+<body>
+<div class="browser-container">
+<form action="https://duckduckgo.com/" method="get">
+    <input class="search-input"type="text" name="q" placeholder="DuckDuckGo btw">
+    <button class="search-button"type="submit">Search</button>
+</form>
+<body>
